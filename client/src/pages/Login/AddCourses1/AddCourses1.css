@@ -1,0 +1,100 @@
+.container_add_courses {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 43%;
+  position: relative;
+  width: 434px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brand-title {
+  text-align: center;
+  font-size: 35px;
+  color: #941414;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.toast {
+  background-color: #fff;
+  border: 0;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04);
+  position: absolute;
+  top: 16%;
+  /* left: 10%; */
+  /* z-index: unset; */
+  right: 1px;
+}
+
+.add-course-btn {
+  color: white;
+  margin-top: 20px;
+  background: #941414;
+  height: 40px;
+  width: 210px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: 0.5s;
+  outline: none;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.inputss form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.course_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.addCourse-input {
+  width: 500px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 15px 20px;
+  border: var(--lwc-borderWidthThin, 1px) solid var(--lwc-colorBorderInput, #941414);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  outline: none;
+}
+
+.add_course_logo {
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 30px; */
+  margin-top: 30px;
+  width: 500px;
+}
+
+.link_login {
+  color: black;
+  text-decoration: underline;
+}

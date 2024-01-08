@@ -1,0 +1,553 @@
+.container_CPD {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  margin-left: 32%;
+  position: relative;
+  width: 60vw;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  /* background: #ecf0f3; */
+  box-shadow: 14px 14px 20px #cbced1, -6px -6px 20px #cbced1;
+  /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; */
+}
+
+.section1 p {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section1 li {
+  text-align: left;
+
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.section1 h5 {
+  margin-top: 20px;
+  text-align: left;
+
+  font-size: 15px;
+  margin-bottom: 8px;
+  width: 536px;
+  font-weight: 400;
+}
+.link_here {
+  color: #941414;
+  font-size: 16px;
+  margin-left: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.main_container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0%;
+  margin: 3%;
+  margin-bottom: 0%;
+}
+
+.main_container2_section_left {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 45vw;
+
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+
+  box-shadow: 14px 14px 20px #cbced1, -6px -6px 20px #cbced1;
+}
+
+.section2_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.img_and_status {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img_cisa img {
+  margin-top: 40px;
+  margin-left: -21px;
+}
+.section2_right {
+  display: flex;
+  flex-direction: column;
+
+  width: 30vw;
+  /* border: 1px solid black; */
+}
+
+.certified_sec h3 {
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: 600;
+}
+.certified_sec p {
+  font-size: 12px;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.section2_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 88%; */
+}
+.progress_bar_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section2_btn {
+  font-size: 12px;
+  color: white;
+  margin-top: 20px;
+  background: #941414;
+  height: 40px;
+  width: 160px;
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  /* box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white; */
+  transition: 0.5s;
+}
+
+.section2_btn:hover {
+  box-shadow: none;
+}
+
+.section2_certificate_btns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: -237px;
+}
+
+.section2_certificate_btns button {
+  width: 150px;
+  height: 29px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid #941414;
+  /* border-radius: 22px; */
+}
+
+.section2_certificate_btns button:hover {
+  background-color: #941414;
+  color: #fff;
+}
+
+.desc {
+  margin-top: 30px;
+  font-size: 8px;
+  text-align: left;
+  display: flex;
+  gap: 2px;
+}
+
+.desc span {
+  color: #0000ff;
+  cursor: pointer;
+  font-size: 8px;
+}
+
+.earned_hours_main {
+  margin-top: 25px;
+  height: 420px;
+  /* margin-left: 50px; */
+  padding: 35px;
+  background-color: #fff;
+  color: #212b36;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 6px;
+  box-shadow: none;
+  background-image: none;
+  overflow: hidden;
+  box-shadow: 0 0 2px 0 rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12);
+  border-radius: 12px;
+  position: relative;
+  z-index: 0;
+  margin-top: 0px;
+}
+
+.earned_hours_main h2 {
+  color: #941414;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.earned_hours {
+  /* width: 104%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.earned_hours_curr {
+  margin-right: 20px;
+}
+
+.earned_hours_curr h4 {
+  margin-bottom: 10px;
+}
+.earned_hours_threeyear h4 {
+  margin-bottom: 10px;
+}
+
+.addCourse_btn {
+  margin-left: 80%;
+  margin-top: -3%;
+  position: relative;
+  top: 0%;
+  right: 0%;
+  color: white;
+  border: none;
+  background: #941414;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: 0.5s;
+  /* margin-bottom: 70px; */
+}
+
+.addCourse_btn:hover {
+  box-shadow: none;
+}
+
+.card_progress {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.cardSection_certificate {
+  padding: 35px;
+  background-color: #fff;
+  color: #212b36;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 6px;
+  box-shadow: none;
+  background-image: none;
+  overflow: hidden;
+  box-shadow: 0 0 2px 0 rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12);
+  border-radius: 12px;
+  position: relative;
+  z-index: 0;
+  margin-top: 2%;
+  width: 550px;
+  height: 360px;
+}
+
+.certificateSection {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.earned_hours table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.earned_hours th,
+.earned_hours td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.earned_hours th {
+  background-color: #f2f2f2;
+}
+
+.earned_hours tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.earned_hours_curr {
+  float: left;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.earned_hours_threeyear {
+  float: right;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.earned_hours h4 {
+  margin-bottom: 20px;
+  font-size: 15px;
+  margin: 18px 0;
+  font-weight: 700;
+}
+
+/* Media Queries */
+
+@media (max-width: 358px) {
+  .section1 h2 {
+    font-size: 13px;
+  }
+  .section1 p {
+    font-size: 8px;
+  }
+  .section1 li {
+    font-size: 7px;
+  }
+  .section1 h5 {
+    font-size: 7px;
+    width: auto;
+  }
+
+  .link_here {
+    font-size: 11px;
+  }
+
+  .card_progress {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .earned_hours_main {
+    width: 275px;
+    height: auto;
+    margin-left: 0;
+    margin-top: 25px;
+    padding: 10px;
+  }
+  .earned_hours h4 {
+    font-size: 11px;
+  }
+  .earned_hours th {
+    font-size: 8px;
+  }
+
+  .cardSection_certificate {
+    width: 275px;
+    padding: 10px;
+    height: auto;
+  }
+
+  .certified_sec h3 {
+    font-size: 10px;
+  }
+  .certified_sec p {
+    font-size: 6px;
+  }
+
+  .section2_btn {
+    font-size: 7px;
+    width: 100px;
+  }
+  .section2_btns {
+    justify-content: space-between;
+  }
+
+  .addCourse_btn {
+    margin-left: 68%;
+    margin-top: 5%;
+    width: 75px;
+    font-size: 8px;
+  }
+}
+@media (min-width: 359px) and (max-width: 480px) {
+  .section1 h2 {
+    font-size: 17px;
+  }
+  .section1 p {
+    font-size: 10px;
+  }
+  .section1 li {
+    font-size: 9px;
+  }
+  .section1 h5 {
+    font-size: 10px;
+    width: auto;
+  }
+
+  .link_here {
+    font-size: 13px;
+  }
+
+  .card_progress {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .earned_hours_main {
+    width: 335px;
+    height: auto;
+    margin-left: 0;
+    margin-top: 25px;
+    padding: 20px;
+  }
+  .earned_hours h4 {
+    font-size: 13px;
+  }
+  .earned_hours th {
+    font-size: 10px;
+  }
+
+  .cardSection_certificate {
+    width: 335px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .certified_sec h3 {
+    font-size: 12px;
+  }
+  .certified_sec p {
+    font-size: 8px;
+  }
+
+  .section2_btn {
+    font-size: 9px;
+    width: 125px;
+  }
+  .section2_btns {
+    justify-content: space-between;
+  }
+
+  .addCourse_btn {
+    margin-left: 74%;
+    margin-top: 5%;
+    width: 88px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .section1 h2 {
+    font-size: 22px;
+  }
+  .section1 p {
+    font-size: 12px;
+  }
+  .section1 li {
+    font-size: 11px;
+  }
+  .section1 h5 {
+    font-size: 12px;
+    width: auto;
+  }
+
+  .link_here {
+    font-size: 14px;
+  }
+
+  .card_progress {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .earned_hours_main {
+    width: 441px;
+    height: auto;
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .cardSection_certificate {
+    width: 441px;
+    height: auto;
+  }
+
+  .section2_btns {
+    justify-content: space-between;
+  }
+
+  .addCourse_btn {
+    margin-left: 74%;
+    margin-top: 5%;
+    width: 120px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 830px) {
+  .earned_hours_main {
+    width: 348px;
+    padding: 25px;
+    height: auto;
+  }
+  .earned_hours th {
+    font-size: 12px;
+  }
+  .section2_btn {
+    font-size: 11px;
+    width: 147px;
+  }
+}
+
+.homeContainer {
+  position: relative;
+  height: 360px;
+  z-index: 0;
+  width: 100%;
+}
+
+.ctrl-btn button {
+  background-color: "red";
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  z-index: 1;
+}
+
+.ctrl-btn button:hover {
+  background-color: rgb(173, 168, 168);
+}
+
+.ctrl-btn .next {
+  position: absolute;
+  top: 45%;
+  right: 2%;
+}
+
+.ctrl-btn .prev {
+  position: absolute;
+  top: 45%;
+  left: 2%;
+  z-index: 99;
+}
